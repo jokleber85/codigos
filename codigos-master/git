@@ -1,0 +1,40 @@
+INSTALAÇÃO GIT (https://www.youtube.com/watch?v=2alg7MQ6_sI)
+
+https://git-scm.com/download
+
+COMANDOS BASH ou TERMINAL VSCODE
+
+Configuração global para assinatura nos projeto
+- git config --global user.name "John Kleber"
+- git config --global user.mail "jo.kleber85@gmail.com"
+
+Comandos / ações 
+- mkdir projeto (criando pasta)
+- touch "nome arquivo" (criando arquivo)
+
+- git init (inicialização repositório)
+- git add . (add todos os arquivos para serem monitorados pelo git)
+- git add "nome do arquivo" (add arquivo específico para ser monitorado pelo git)
+- git commit -m "descriçao do arquivo ou alterações" 
+- git log (vizualizar o histórico do projeto)
+- git status (vizualizar o estado do desenvolvimento)
+- git show "hash" (visualizar as alterações hash informado)
+- git show (vizualizar todas as alterações)
+
+
+- git branch "nome da ramificação" (criar linha trabalho fora da principal ou master)
+- git checkout "nome da ramificação" (navegar para a ramificação ou master)
+- git branch (vizualizar todas as branch ou ramificações do projeto)
+
+
+- git merge "nome branch" (unir brach separadas)
+- git branch -D "nome branch" (deletar branch) 
+
+
+- git remote add origin git@github.com:jokleber85/"nomePastaServidorGit".git
+- git remote -v (vizualizar repositórios remotos)
+
+
+
+- git clear (limpar tela)
+- q (sair git log)

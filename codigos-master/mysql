@@ -1,0 +1,41 @@
+ALTER TABLE listaescolar ADD CONSTRAINT fk_classe FOREIGN KEY (id_escola_serie) REFERENCES escola_serie(id) 
+
+ALTER TABLE cashback ADD CONSTRAINT fk_clientes_cashback FOREIGN KEY (cpf_cnpj) REFERENCES clientes(cpf_cnpj) 
+ALTER TABLE cashback ADD CONSTRAINT fk_clientes_cashback FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
+
+ALTER TABLE clientes ADD CONSTRAINT fk_cliente_cashback FOREIGN KEY (id_cashback) REFERENCES cashback(id)
+---------------------------------------------------------------------------------------------------------------------
+Lista de IP's rede interna: 
+
+> prompt > arp -a
+---------------------------------------------------------------------------------------------------------------------
+
+SELECT * FROM historico_cashback LEFT JOIN clientes ON clientes.id_cliente = historico_cashback.cliente_id WHERE cpf_cnpj = '36134180610'
+
+SELECT * FROM departamentos INNER JOIN departamentos_familias ON departamentos.id = departamentos_familias.idDepartamento WHERE departamentos.id = 1
+
+SELECT departamentos.nome, departamentos_familias.idFamilia FROM departamentos INNER JOIN departamentos_familias ON departamentos.id = departamentos_familias.idDepartamento WHERE departamentos.id = 1
+
+
+
+
+SELECT escola_serie.id FROM escola_serie INNER JOIN escolas ON escolas.id = escola_serie.id_escola INNER JOIN series ON series.id = escola_serie.id_serie WHERE escolas.nome = '$escola' AND series.nome = '$serie'
+
+
+TESTE RODA, MAS NÃO FUNCIONA
+INSERT INTO escola_serie(id_escola, id_serie) SELECT escolas.id AS id_escola, series.id AS id_serie FROM escola_serie INNER JOIN escolas ON escolas.id = escola_serie.id_escola INNER JOIN series ON series.id = escola_serie.id_serie WHERE escolas.nome = 'Colégio FG' AND series.nome = '6º ao 9º ano'
+SELECT escolas.id FROM escolas INNER JOIN escola_serie ON escolas.id = escola_serie.id_escola WHERE escolas.nome = "Colégio FG"
+
+
+
+SELECT escolas.id AS id_escola, series.id 
+FROM escola_serie 
+
+INNER JOIN escolas 
+ON escolas.id = escola_serie.id_escola 
+
+INNER JOIN series 
+ON series.id = escola_serie.id_serie 
+
+WHERE escolas.nome = 'Colégio FG' 
+AND series.nome = '6º ao 9º ano'

@@ -1,0 +1,149 @@
+Abrir CMD ou Terminal VsCode:
+*** node.js (como administrador)
+
+-------------------------------------------------------------------------------------------------------------------------------
+Navegar cmd local onde sera criado projeto: 
+*** cd C:/
+...cd C:/Users/John Kleber/ [pasta raiz onde sera criado o projeto] 
+
+-------------------------------------------------------------------------------------------------------------------------------
+Criar Novo Projeto
+*** cordova create [nome pasta] [nome pacote] [nome aplicativo]
+...cordova create AppCordova com.appcordova.app AppCordova
+
+-------------------------------------------------------------------------------------------------------------------------------
+Adicionar Plugin Push
+*** phonegap plugin add phonegap-plugin-push@1.4 --save 
+
+-------------------------------------------------------------------------------------------------------------------------------
+Adicionar Plugin FireBase
+*** cordova plugin add cordova-plugin-firebase@0.1.24 --save
+
+-------------------------------------------------------------------------------------------------------------------------------
+Adicionar Plataforma Nativa (android)
+*** cordova platform add android
+
+-------------------------------------------------------------------------------------------------------------------------------
+Gerar Chave (keytool):
+*** keytool -genkey -v -keystore key-release.keystore -alias phonegap_builld -keyalg RSA -keysize 2048 -validity 10000
+°°° Local: C:\[PastaApp]\platforms\android 
+
+-------------------------------------------------------------------------------------------------------------------------------
+Criar o arquivo (bloco de notas):
+*** Nome: release-signing.properties  
+*** Local: C:\[PastaApp]\platforms\android 
+*** Conteudo:
+	storeFile= <keystore>
+	storeType=jks
+	keyAlias=<alias>
+	keyPassword=<keystorePassword>
+	storePassword=<storePassword>
+
+-------------------------------------------------------------------------------------------------------------------------------
+Gerar Apk (com assinatura)
+*** cmd: cordova build android --release
+C:\PastaApp\platforms\android\build\outputs\apk\android-release.apk
+
+Gerar Apk (sem assinatura)
+*** cmd: cordova build android 
+C:\PastaApp\platforms\android\build\outputs\apk\android-debug.apk
+
+-------------------------------------------------------------------------------------------------------------------------------
+Publicar PlayStore
+*** android-release.apk
+
+-------------------------------------------------------------------------------------------------------------------------------
+*******************************************************************************************************************************
+OBSERVAÇÕES:
+
+Implementar leitura cordova, comandos ajax/.js
+
+cmd:
+*** cordova plugin add cordova-plugin-whitelist
+*** cordova prepare
+
+Consulta Versão Cordova Instalada
+*** cordova -v
+
+Consulta Informações
+*** cordova info
+
+Atualizar node.js
+*** npm install -g cordova
+
+Atualizar Cordova
+***npm update -g cordova
+
+Atualizar Plataforma Nativa (android) projeto concluído
+*** cordova platform update android
+
+Atualizar plugins
+*** cordova-plugin-update
+
+Excluir Plugin
+***cordova plugin remove cordova-plugin-console
+
+-------------------------------------------------------------------------------------------------------------------------------
+Icones:
+C:\AppPush\platforms\android\res
+
+36x36
+48x48
+72x72
+-------------------------------------------------------------------------------------------------------------------------------
+*******************************************************************************************************************************
+INSTALAÇÃO CORDOVA WINDOWS 
+
+INSTALAÇÃO JAVA
+- Link: 
+- Download Java JDK e JRE e instalação
+
+* Variaveis do Usuário
+* Nome: JAVA_HOME
+* Valor: C:\Program Files\Java\jdk1.8.0_241 (endereço da pasta) 
+
+- Adicionar variavel de ambiente: 
+* Variaveis do Sistema
+* Nome: JAVA_HOME
+* Valor: C:\Program Files\Java\jdk1.8.0_241 (endereço da pasta)
+
+* Variaveis do Sistema
+* Nome: path
+* Valor: C:\Program Files\Java\jdk1.8.0_241 (endereço da pasta) 
+
+* Variaveis do Sistema
+* Nome: path
+* Valor: %JAVA_HOME/bin
+	 %ANDROID_HOME%\tools
+	 %ANDROID_HOME%\platform-tools
+	 % PATH%
+
+* Variaveis do Sistema
+* Nome: ANDROID_HOME
+* Valor: C:\Users\JOHN KLEBER\AppData\Local\Android\Sdk
+
+-------------------------------------------------------------------------------------------------------------------------------
+INSTALAÇÃO ANDROID ESTUDIO
+- Link: 
+- Download Android Studio e instalação
+
+-------------------------------------------------------------------------------------------------------------------------------
+INSTALAÇÃO NODEJS
+- Link: (https://nodejs.org/en/download/)
+- Download e instalação
+
+-------------------------------------------------------------------------------------------------------------------------------
+INSTALAÇÃO CORDOVA
+- cmd do node (administrador)
+*cd C:/
+* npm install -g cordova
+
+-------------------------------------------------------------------------------------------------------------------------------
+INSTALAÇÃO GRANDLE
+- Link
+- Download e instalação
+- Extrair para C:/
+* Variaveis do Sistema
+* Nome: path
+* Valor: C:\gradle-6.2.2\bin (endereço da pasta) 
+-------------------------------------------------------------------------------------------------------------------------------
