@@ -1,1 +1,4 @@
-Comandos de acordo com a linguagem ou ferramentas que normalmente utilizo
+FireShot - captura de tela
+ColorZilla - captura nomeclatura de cores páginas
+ScreenReader - leitor de tela
+ScreenCastify - captura de tela em vídeo
