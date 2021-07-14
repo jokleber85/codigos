@@ -1,0 +1,7 @@
+ Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
+
+- Digitar (Terminal VsCode): ssh-keygen -t ed25519 -C "jo.kleber85@gmail.com"
+- Abrir o arquivo de destino (C:\Users\Oficina5/.ssh/id_ed25519.pub) e copiar a key gerada
+- Acessar a opção de SSH keys no site github.com
+- Colar a key que deve seguir a expressão: ssh-ed25519 "key gerada" jo.kleber85@gmail.com
+- Good Work!!!
