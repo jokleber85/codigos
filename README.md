@@ -1,4 +1,4 @@
-##h2 Instalação Git - Linux </br>
+## Instalação Git - Linux:
 ``` 
 sudo apt-get install git
 ```
