@@ -5,7 +5,7 @@
 * Executar sequinte comando: sudo dpkg -i ~/code_*.deb; sudo apt -f install -y
 ## <br />
 
-## Configurar Git/VsCode </br>
+## Configurar Git/VsCode:
 
 Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
 
@@ -16,7 +16,7 @@ Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
 - Good Work!!!
 ## <br />
 
-### Plugins VsCode</br>
+## Plugins VsCode:
 
 * Portuguese (Brazil) Language Pack for Visual Studio Code - Microsoft
 * Angular Language Service - Angular
