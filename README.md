@@ -27,4 +27,5 @@ Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
   - TSLint - Microsoft
 * Material Icon Theme - Philipp Kief
 * GitHub Pull Requests and IssuesPreview - GitHub
+* Angular Snippets (Version 12) - John Papa
 ## <br />
