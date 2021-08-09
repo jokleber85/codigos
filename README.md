@@ -11,3 +11,8 @@ sudo apt-get update
 sudo snap install postman
 ```
 <br>
+
+### NodeJs:
+```
+sudo apt-get install nodejs
+```
