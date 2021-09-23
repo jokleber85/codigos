@@ -27,4 +27,6 @@ Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
   - TSLint - Microsoft
 * Material Icon Theme - Philipp Kief
 * GitHub Pull Requests and IssuesPreview - GitHub
+* GitLens - Git supercharged - Eric Amodio
+
 ## <br />
