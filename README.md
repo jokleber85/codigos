@@ -22,3 +22,9 @@ sudo apt-get install nodejs
 node --version
 ```
 <br>
+
+### GParted:
+```
+sudo apt-get install gparted
+```
+<br>
