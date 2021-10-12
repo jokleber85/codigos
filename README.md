@@ -27,4 +27,8 @@ node --version
 ```
 sudo apt-get install gparted
 ```
-<br>
+### DBeaver:
+```
+[Download](https://dbeaver.io/download/)
+sudo dpkg -i dbeaver-ce_21.2.2_amd64.deb
+```
