@@ -3,6 +3,9 @@
 ### Comandos:
 ```
 sudo apt-get update (Atualização Ubuntu)
+sudo apt-get auto-remove (Limpeza packs obsoletos)
+sudo apt-get autoclean (Limpeza packs .deb obsoletos)
+sudo apt-get clean (Limpeza packs .deb obsoletos por diretório)
 history (historico comandos digitados no terminal)
 ```
 <br>
