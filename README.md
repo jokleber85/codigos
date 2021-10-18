@@ -8,13 +8,11 @@ sudo apt-get autoclean (Limpeza packs .deb obsoletos)
 sudo apt-get clean (Limpeza packs .deb obsoletos por diretório)
 history (historico comandos digitados no terminal)
 ```
-<br>
 
 ### PostMan:
 ```
 sudo snap install postman
 ```
-<br>
 
 ### NodeJs:
 ```
@@ -24,15 +22,18 @@ curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
 sudo apt-get install nodejs
 node --version
 ```
-<br>
 
 ### GParted:
 ```
 sudo apt-get install gparted
 ```
-### DBeaver:
 
-[Download](https://dbeaver.io/download/)
+### DBeaver: [Download](https://dbeaver.io/download/)
 ```
 sudo dpkg -i dbeaver-ce_21.2.2_amd64.deb
+```
+
+### Gimp:
+```
+sudo snap install gimp
 ```
