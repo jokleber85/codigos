@@ -28,5 +28,8 @@ Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
 * Material Icon Theme - Philipp Kief
 * GitHub Pull Requests and IssuesPreview - GitHub
 * GitLens - Git supercharged - Eric Amodio
+* Code Spell Checker
+* Color HighLight
+* VsCode-icons
 
 ## <br />
