@@ -24,4 +24,4 @@ sudo apt-get install git
 15. git push -u origin barbeariaAlura
 
 ###### Clone de uma branch específica do repositório 
-* git clone -b barbeariaAlura git@github.com:jokleber85/aluraFormacaoFrontEnd.git
+16. git clone -b barbeariaAlura git@github.com:jokleber85/aluraFormacaoFrontEnd.git
