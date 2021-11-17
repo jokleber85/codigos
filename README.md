@@ -25,3 +25,7 @@ sudo apt-get install git
 
 ###### Clone de uma branch específica do repositório 
 16. git clone -b barbeariaAlura git@github.com:jokleber85/aluraFormacaoFrontEnd.git
+</br>
+
+#### Comandos:
+* Delete branch remota: git push origin --delete "nome branch"
