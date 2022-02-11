@@ -29,3 +29,4 @@ sudo apt-get install git
 
 #### Comandos:
 * Delete branch remota: git push origin --delete "nome branch"
+* Antes do commit exclui as alterações: git merge --abort
