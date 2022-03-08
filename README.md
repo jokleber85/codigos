@@ -39,3 +39,13 @@ sudo dpkg -i dbeaver-ce_21.2.2_amd64.deb
 ```
 sudo snap install gimp
 ```
+
+### PostGres / PgAdmin:
+- [Instalação PostGres](https://www.youtube.com/watch?v=Phkf71aZL7A&list=PLucm8g_ezqNoAkYKXN_zWupyH6hQCAwxY&index=3) até 2:30
+```
+sudo -i -u postgres
+
+```
+
+
+
