@@ -41,11 +41,11 @@ sudo snap install gimp
 ```
 
 ### PostGres / PgAdmin:
-- [Instalação PostGres](https://www.youtube.com/watch?v=Phkf71aZL7A&list=PLucm8g_ezqNoAkYKXN_zWupyH6hQCAwxY&index=3) até 2:30
 ```
-sudo -i -u postgres
+sudo apt-get install postgresql postgresql-contrib
+```
+[pgAdmin](https://startdb.com.br/2021/05/02/instalando-pgadmin4-no-linux/)
 
-```
 
 
 
