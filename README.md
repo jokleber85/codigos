@@ -23,3 +23,7 @@ sudo service postgresql restart
 
 
 ## [Configuração e Instalação do pgAdmin4](https://startdb.com.br/2021/05/02/instalando-pgadmin4-no-linux/)
+
+
+![Configuração PostgreSQL Binary Path no pgAdmin4](https://user-images.githubusercontent.com/33269557/157717428-d9c1e79c-8183-4147-80f4-a89d74b7ff22.png)
+
