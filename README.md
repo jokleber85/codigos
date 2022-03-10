@@ -39,13 +39,3 @@ sudo dpkg -i dbeaver-ce_21.2.2_amd64.deb
 ```
 sudo snap install gimp
 ```
-
-### PostGres / PgAdmin:
-```
-sudo apt-get install postgresql postgresql-contrib
-```
-[pgAdmin](https://startdb.com.br/2021/05/02/instalando-pgadmin4-no-linux/)
-
-
-
-
