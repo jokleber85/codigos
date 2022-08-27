@@ -31,5 +31,7 @@ Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
 * Code Spell Checker
 * Color HighLight
 * VsCode-icons
+* Flutter Widget Snippets - Alexis Villegas Torres
+
 
 ## <br />
