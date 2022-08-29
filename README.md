@@ -43,7 +43,7 @@ sudo snap install gimp
 
 ### Serverless:
 ```
-sudo npm install -g serverless --unsafe-perm=true --allow-root
+curl -o- -L https://slss.io/install | bash
 ```
 
 
