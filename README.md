@@ -40,3 +40,12 @@ sudo dpkg -i dbeaver-ce_21.2.2_amd64.deb
 ```
 sudo snap install gimp
 ```
+
+### Serverless:
+```
+sudo npm install -g serverless --unsafe-perm=true --allow-root
+```
+
+
+
+
