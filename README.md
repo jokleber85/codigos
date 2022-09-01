@@ -46,6 +46,11 @@ sudo snap install gimp
 curl -o- -L https://slss.io/install | bash
 ```
 
+### Docker: [Download](https://docs.docker.com/engine/install/ubuntu/)
+```
+curl -o- -L https://slss.io/install | bash
+```
+
 
 
 
