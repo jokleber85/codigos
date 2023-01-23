@@ -32,3 +32,5 @@ sudo apt-get install git
 * Delete branch local: git branch -d localBranchName
 * Delete branch remota: git push origin --delete remoteBranchName
 * Antes do commit exclui as alterações: git merge --abort
+* Consultar arquivos editador após commit: git show --stat COMMIT_ID
+
