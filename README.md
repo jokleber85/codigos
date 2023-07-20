@@ -7,9 +7,12 @@ sudo apt-get upgrade (Atualização Ubuntu)
 sudo apt-get auto-remove (Limpeza packs obsoletos)
 sudo apt-get autoclean (Limpeza packs .deb obsoletos)
 sudo apt-get clean (Limpeza packs .deb obsoletos por diretório)
-sudo apt purge "nome aplicativo" (desinstalar) 
+sudo apt purge "nome aplicativo" (desinstalar)
 history (historico comandos digitados no terminal)
 sudo chmod -R 777 /home/yourProjectDirectoryName (permissão editar,salvar,deletar)
+
+apt list --installed (listar packages instalados)
+sudo apt autoremove --purge "nome aplicativo" (desinstalar .debian)
 ```
 
 ### PostMan:
