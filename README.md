@@ -2,17 +2,26 @@
 
 ### Comandos:
 ```
+df -h (Exibir Sistema Arquivos)
+du -sh * (Listar pastas com tamanho dos arquivos)
+du -csh ./ (Listar arquivos ocultos com tamanho dos arquivos )
+ls -lha (Exibir as permissões)
+ls -laf (Exibir todos os arquivos, inclusive ocultos)
+rm "pasta" (Excluir arquivo)
+rm -rf * (Excluir permanentemente arquivos dentro pasta)
+ssh usuario@192.168.1.150 (Acesso remoto outra máquina)
+
 sudo apt-get update 
-sudo apt-get upgrade (Atualização Ubuntu)
+sudo apt-get upgrade (Atualizar Ubuntu)
+sudo apt purge "nome aplicativo" (Desinstalar)
+sudo apt-get clean (Limpar packs .deb obsoletos por diretório)
+sudo apt autoremove --purge "nome aplicativo" (Desinstalar .debian)
 sudo apt-get auto-remove (Limpeza packs obsoletos)
 sudo apt-get autoclean (Limpeza packs .deb obsoletos)
-sudo apt-get clean (Limpeza packs .deb obsoletos por diretório)
-sudo apt purge "nome aplicativo" (desinstalar)
-history (historico comandos digitados no terminal)
 sudo chmod -R 777 /home/yourProjectDirectoryName (permissão editar,salvar,deletar)
 
-apt list --installed (listar packages instalados)
-sudo apt autoremove --purge "nome aplicativo" (desinstalar .debian)
+history (Exibir histórico comandos digitados no terminal)
+apt list --installed (Listar packages instalados)
 ```
 
 ### PostMan:
