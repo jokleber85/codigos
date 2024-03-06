@@ -25,6 +25,7 @@ Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
   - EditorConfig for VS Code - EditorConfig
   - Prettier - Code formatter - Prettier
   - TSLint - Microsoft
+  - Angular Language Service
 * Material Icon Theme - Philipp Kief
 * GitHub Pull Requests and IssuesPreview - GitHub
 * GitLens - Git supercharged - Eric Amodio
