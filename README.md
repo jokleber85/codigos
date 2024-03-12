@@ -21,18 +21,24 @@ Vs-Code -> Contas -> Entre com uma GitHub... -> Continue -> Abrir VsCode
 * Portuguese (Brazil) Language Pack for Visual Studio Code - Microsoft
 * Angular Language Service - Angular
 * Angular Extension Pack - Loiane Groner
+  - Angular Language Service
   - Angular Snippets (Version 12) - John Papa
   - EditorConfig for VS Code - EditorConfig
   - Prettier - Code formatter - Prettier
   - TSLint - Microsoft
-  - Angular Language Service
-* Material Icon Theme - Philipp Kief
-* GitHub Pull Requests and IssuesPreview - GitHub
-* GitLens - Git supercharged - Eric Amodio
 * Code Spell Checker
 * Color HighLight
-* VsCode-icons
 * Flutter Widget Snippets - Alexis Villegas Torres
+* GitHub Pull Requests and IssuesPreview - GitHub
+* GitLens - Git supercharged - Eric Amodio
+* GitKraken Authentication - GitKraken
+* Live Server
+* Material Icon Theme - Philipp Kief
+* PHP Server
+* Pylance - Microsoft
+* Python - Microsoft
+* Python - Microsoft
+* VsCode-icons
 
 
 ## <br />
